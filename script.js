@@ -6,12 +6,11 @@ class Animal {
 getSpecies(){
 	return this.species;
 }
-	
-  makeSound() {
-    console.log(
-The ${this.species} makes a sound
-);
+	makeSound() {
+    console.log(`The ${this.species} makes a sound`);
 }
+ 
+
 }
 
 class Dog extends Animal {
